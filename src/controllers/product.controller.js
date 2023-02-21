@@ -15,7 +15,8 @@ import {service}  from '../config/user.def.js';
 // let Flds_table = 'flds_dept';
 let Flds_table = 'products';
 // Create and Save a new Product
-export const create = async function(req, res) {
+// export const create = async function(req, res) {
+export const create = async (req, res) => {
   console.log('create query = %s', req.query);
   console.log('create body = %s', req.body);
   console.log('create params = %s', req.params);

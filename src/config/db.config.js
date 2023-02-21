@@ -20,7 +20,7 @@ export const dbconfig1 = {
 
 // VMplayer
 export const dbconfig2 = {
-    HOST : "192.168.249.103",
+    HOST : "192.168.249.106",
     USER : "root",
     PASSWORD : "123456",
     DB : "micron_dev01",
